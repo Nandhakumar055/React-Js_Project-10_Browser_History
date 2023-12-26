@@ -1,0 +1,83 @@
+.history-card-item-container {
+  width: 100%;
+  padding: 17px;
+  list-style: none;
+}
+.history-time {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.history-web-item-main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.history-web-item-container {
+  display: flex;
+  flex-direction: row;
+}
+.social-media-icon-image {
+  width: 50px;
+  align-self: flex-start;
+}
+
+.domines-container {
+  padding: 0px 10px;
+}
+
+.history-web-name {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+}
+.domain-name {
+  color: #64748b;
+  font-size: 15px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.delete-icon-button {
+  border: none;
+  background-color: transparent;
+}
+
+.delete-icon {
+  width: 28px;
+}
+
+@media screen and (min-width: 992px) {
+  .history-card-item-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .history-time {
+    padding: 10px;
+    width: 180px;
+    margin: 0;
+  }
+
+  .history-web-item-main-container {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .history-web-item-container {
+  }
+
+  .domines-container {
+    display: flex;
+    align-items: center;
+  }
+  .domain-name {
+    margin: 0;
+    padding-left: 15px;
+  }
+}
